@@ -13,40 +13,76 @@
 - `Makefile` 是用于编译项目的脚本。
 
 data-structures-project/
+
 |-- src/
+
+
 |   |-- main.c             // 主程序入口
+
 |   |-- array.c            // 数组实现
+
 |   |-- list.c             // 链表实现
+
 |   |-- stack.c            // 栈实现
+
 |   |-- queue.c            // 队列实现
+
 |   |-- tree.c             // 树实现
+
 |   |-- graph.c            // 图实现
+
 |   |-- sort.c             // 排序算法实现
+
 |   |-- search.c           // 查找算法实现
+
 |-- include/
+
 |   |-- array.h            // 数组头文件
+
 |   |-- list.h             // 链表头文件
+
 |   |-- stack.h            // 栈头文件
+
 |   |-- queue.h            // 队列头文件
+
 |   |-- tree.h             // 树头文件
+
 |   |-- graph.h            // 图头文件
+
 |   |-- sort.h             // 排序算法头文件
+
 |   |-- search.h           // 查找算法头文件
+
 |   |-- common.h           // 公共头文件，包含常用库和宏定义
+
 |-- tests/
+
 |   |-- test_array.c       // 数组测试
+
 |   |-- test_list.c        // 链表测试
+
 |   |-- test_stack.c       // 栈测试
+
 |   |-- test_queue.c       // 队列测试
+
 |   |-- test_tree.c        // 树测试
+
 |   |-- test_graph.c       // 图测试
+
 |   |-- test_sort.c        // 排序算法测试
+
 |   |-- test_search.c      // 查找算法测试
+
 |-- examples/
+
 |   |-- example_usage.c    // 示例程序，展示如何使用数据结构
+
 |-- docs/
+
 |   |-- README.md          // 项目文档
+
 |-- Makefile               // 编译脚本
+
 
 
 
