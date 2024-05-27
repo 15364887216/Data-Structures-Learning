@@ -1,8 +1,8 @@
+// list.c
 #include "list.h"
+#include "common.h" // 包含 common.h 头文件
 #include <stdio.h>
 #include <stdlib.h>
-
-
 
 // 创建一个新的链表节点
 Node* createNode(int data) {
